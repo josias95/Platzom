@@ -1,0 +1,32 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma inventado",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel src/platzom.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josias95/Platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "javascript",
+    "js"
+  ],
+  "author": "Josias Cubillos <jcubillosg@uqvirtual.edu.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/josias95/Platzom/issues"
+  },
+  "homepage": "https://github.com/josias95/Platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.1.0"
+  }
+}
